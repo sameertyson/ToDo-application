@@ -1,0 +1,10 @@
+.todo-list-ul{
+    list-style-type: none;
+    margin-left:-40px;
+}
+.no-todo-con{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

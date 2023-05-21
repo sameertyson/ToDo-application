@@ -1,0 +1,49 @@
+.register-con{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: flex-start;
+    width:30%;
+    padding:20px;
+    box-shadow: 0px 4px 10px 0px #423d3d;
+}
+.register-heading{
+    align-self: center;
+    font-size: 45px;
+    color:rgb(7, 136, 234)
+
+}
+.btn-con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding:5px 8px;
+    margin:10px;
+    outline: none;
+}
+.input-bars{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.sign{
+    background-color: rgb(7, 136, 234);
+    border: none;
+    color:#fff;
+
+}
+.login{
+    background-color: transparent;
+    color: rgb(7, 136, 234);
+    border:2px solid rgb(7, 136, 234)
+}

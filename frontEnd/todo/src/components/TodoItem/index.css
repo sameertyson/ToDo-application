@@ -1,0 +1,74 @@
+.item-card{
+    background-color: aliceblue;
+    padding:20px;
+    margin:20px;
+}
+.title-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start{
+    background-color: #ff000090;
+    color:#fff;
+}
+.prog{
+    width: 150px;
+    padding:5px 15px;
+    text-align: center;
+}
+.icon-btn{
+    background-color: transparent;
+    border:none;
+}
+.edit-dlt-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+}
+.progress{
+    color: #fff;
+    background-color: #fe94008a;
+}
+.success{
+    color:#fff;
+    background-color: #22ff007e;
+}
+
+.modal {
+    font-size: 12px;
+    background-color: #fff;
+    width:100%;
+    padding:20px
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+   .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+   .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }

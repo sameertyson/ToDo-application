@@ -1,0 +1,24 @@
+.hom-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.form-con-todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ad-todo{
+    width: 100%;
+    padding: 5px 8px;
+    outline: none;
+    margin:5px;
+}
+.succ{
+    background-color: #00ff2f;
+    text-align: center;
+    color:#fff;
+}
